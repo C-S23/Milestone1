@@ -7,6 +7,7 @@ A simple backend service for managing articles. Users can add articles, search f
 - **Search Articles**: Search articles by keyword or tag with relevance-based sorting.
 - **Retrieve Articles**: Get full details of an article by ID.
 - **Persistence**: Articles are stored in a `articles.json` file for persistence.
+- **data**: data for the above search is provided in data dir.
 
 ## How It Works
 1. **Add Articles**: Articles are added via a **POST** request with title, content, and tags.
